@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+html{ 
+	scroll-behavior:smooth;
+}
+body{
+  padding-top:50px;
+  padding-bottom:400px;
+}
+h1, h2, h3, h4, h5 h6, 
+.h1, .h2, .h3, .h4, .h5 .h6{
+  font-family: 'Merriweather', serif;
+  font-weight:900;
+}
+h2, .h2{
+  margin-bottom:30px;
+}
+.full_width_header{
+  background-image:url('http://learn.mmacfadden.com/wp-content/uploads/2014/08/graphics.jpg');
+  background-size:cover;
+  background-position:center;
+  padding-bottom:150px;
+}
+.jumbotron{
+  background-color:transparent;
+  padding-top:100px;
+}
+.jumbotron h1{
+  color:#000;
+  font-size:72px;
+}
+.jumbotron p{
+  color:#f1f1f1;
+  font-size:28px;
+  text-shadow: 1px 1px 1px #000000;
+}
+.more_padding{
+  padding:50px 0;
+}
+.background_grey{
+  background:#F1F1F1;
+}
+.background_black{
+  background:#000;
+}
+.background_black h2, .background_black p{
+  color:#FFF;
+}
+iframe{
+  width:100%;
+  max-width:720px;
+  margin:0 auto;
+  display:block;
+  padding-bottom:50px;
+}
